@@ -1,0 +1,83 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  padding: 40px 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #006d77;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: 600;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  transition: border 0.2s ease;
+}
+
+input:focus, select:focus {
+  border-color: #38b000;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #38b000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2d8700;
+}
+
+#result {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #eafaf1;
+  border: 1px solid #b7e4c7;
+}
+
+#result h2 {
+  margin-bottom: 15px;
+  color: #007f5f;
+}
+
+#result p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}

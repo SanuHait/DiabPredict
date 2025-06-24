@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DiabVoice Diagnosis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>DiabVoice – Diabetes Diagnosis</h1>
+
+    <form id="diagnosis-form">
+      <select id="test-type">
+        <option value="basic">Basic</option>
+        <option value="advanced">Advanced</option>
+      </select>
+
+      <div id="input-fields"></div>
+
+      <button type="submit">Predict</button>
+    </form>
+
+    <div id="result">
+      <h2>Prediction Result</h2>
+      <p><strong>Status:</strong> <span id="prediction"></span></p>
+      <p><strong>Medicine:</strong> <span id="medicine"></span></p>
+      <p><strong>Diet:</strong> <span id="diet"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
