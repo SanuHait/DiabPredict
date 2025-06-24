@@ -78,7 +78,7 @@ Sample response:
 HOW TO RUN
 
 1. Clone the repository:
-   git clone https://github.com/your-username/DiabVoice.git
+   git clone https://github.com/SanuHait/DiabPredict
    cd DiabVoice
 
 2. Setup backend:
